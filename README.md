@@ -11,8 +11,8 @@ These tools were written to take several of the files produced by the pipeline a
 presentation in a more readable format.
 
 ## Structure
-There are two main programs in this package. One extracts the data of interest and creates a JSON file of all
+There are two main programs in this package. One extracts the data of interest and creates a XML file of all
 the pertinent information. The second reads the JSON file and can create an output file as either a PDF report
-or a CSV file, depending on command line options. The program that creates the JSON file has several components
+or a CSV file, depending on command line options. The program that creates the XML file has several components
 to extract specific types of information. These were created as seperate modules so that they might be used
 in other projects in the future.
