@@ -1,0 +1,614 @@
+<surveillance_report>
+	<title>Sample Surveillance Report</title>
+	<sample_id>Rosenthal_S81</sample_id>
+	<date>2018-05-07 15:03:27.870000</date>
+	<pipeline>
+		<name>UVP</name>
+		<version>1.1</version>
+	</pipeline>
+	<lineage>
+		<code>2.2.1</code>
+		<name>East-Asian</name>
+	</lineage>
+	<coverage>
+		<gene name="whole_genome"><depth>71</depth><percent> 99.31</percent></gene>
+		<gene name="hadA"><depth>57.06</depth><percent>100.0</percent></gene>
+		<gene name="hadC"><depth>47.35</depth><percent>100.0</percent></gene>
+		<gene name="hadB"><depth>47.18</depth><percent>100.0</percent></gene>
+		<gene name="pncA"><depth>58.43</depth><percent>100.0</percent></gene>
+		<gene name="folP2"><depth>81.45</depth><percent>100.0</percent></gene>
+		<gene name="folP1"><depth>81.98</depth><percent>100.0</percent></gene>
+		<gene name="alr"><depth>80.9</depth><percent>100.0</percent></gene>
+		<gene name="dacB2"><depth>80.34</depth><percent>100.0</percent></gene>
+		<gene name="panD"><depth>78.39</depth><percent>100.0</percent></gene>
+		<gene name="ald"><depth>76.17</depth><percent>100.0</percent></gene>
+		<gene name="katG"><depth>68.63</depth><percent>100.0</percent></gene>
+		<gene name="mmpL5"><depth>65.75</depth><percent>100.0</percent></gene>
+		<gene name="nudC"><depth>78.33</depth><percent>100.0</percent></gene>
+		<gene name="mmaA3"><depth>60.62</depth><percent>100.0</percent></gene>
+		<gene name="erm(37)"><depth>84.56</depth><percent>100.0</percent></gene>
+		<gene name="clpC1"><depth>71.23</depth><percent>100.0</percent></gene>
+		<gene name="atpC"><depth>113.85</depth><percent>100.0</percent></gene>
+		<gene name="atpE"><depth>67.39</depth><percent>100.0</percent></gene>
+		<gene name="embA"><depth>79.99</depth><percent>100.0</percent></gene>
+		<gene name="embB"><depth>76.54</depth><percent>100.0</percent></gene>
+		<gene name="embC"><depth>80.01</depth><percent>100.0</percent></gene>
+		<gene name="fabG1"><depth>61.48</depth><percent>100.0</percent></gene>
+		<gene name="embR"><depth>62.93</depth><percent>100.0</percent></gene>
+		<gene name="kasA"><depth>77.5</depth><percent>100.0</percent></gene>
+		<gene name="rrl"><depth>46.2</depth><percent>100.0</percent></gene>
+		<gene name="proZ"><depth>50.12</depth><percent>100.0</percent></gene>
+		<gene name="Rv2731"><depth>89.26</depth><percent>100.0</percent></gene>
+		<gene name="Rv1667c"><depth>68.73</depth><percent>100.0</percent></gene>
+		<gene name="ksgA"><depth>81.9</depth><percent>100.0</percent></gene>
+		<gene name="rrs"><depth>50.46</depth><percent>100.0</percent></gene>
+		<gene name="rplC"><depth>75.03</depth><percent>100.0</percent></gene>
+		<gene name="sigI"><depth>77.53</depth><percent>100.0</percent></gene>
+		<gene name="thyA"><depth>59.16</depth><percent>100.0</percent></gene>
+		<gene name="gyrA"><depth>68.61</depth><percent>100.0</percent></gene>
+		<gene name="eccC5"><depth>59.62</depth><percent>100.0</percent></gene>
+		<gene name="thyX"><depth>84.95</depth><percent>100.0</percent></gene>
+		<gene name="ddn"><depth>70.09</depth><percent>100.0</percent></gene>
+		<gene name="folC"><depth>84.02</depth><percent>100.0</percent></gene>
+		<gene name="tlyA"><depth>93.21</depth><percent>100.0</percent></gene>
+		<gene name="inhA"><depth>73.68</depth><percent>100.0</percent></gene>
+		<gene name="dfrA"><depth>82.0</depth><percent>100.0</percent></gene>
+		<gene name="Rv1979c"><depth>52.27</depth><percent>100.0</percent></gene>
+		<gene name="rpoC"><depth>79.08</depth><percent>100.0</percent></gene>
+		<gene name="rpoB"><depth>75.39</depth><percent>100.0</percent></gene>
+		<gene name="rpoA"><depth>61.03</depth><percent>100.0</percent></gene>
+		<gene name="mshA"><depth>76.04</depth><percent>100.0</percent></gene>
+		<gene name="mshB"><depth>53.9</depth><percent>100.0</percent></gene>
+		<gene name="mshC"><depth>70.57</depth><percent>100.0</percent></gene>
+		<gene name="rpfB"><depth>83.34</depth><percent>100.0</percent></gene>
+		<gene name="Rv0565c"><depth>59.35</depth><percent>100.0</percent></gene>
+		<gene name="ndh"><depth>63.06</depth><percent>100.0</percent></gene>
+		<gene name="eccB5"><depth>52.73</depth><percent>100.0</percent></gene>
+		<gene name="pbpA"><depth>78.34</depth><percent>100.0</percent></gene>
+		<gene name="gpsI"><depth>72.45</depth><percent>100.0</percent></gene>
+		<gene name="cycA"><depth>69.3</depth><percent>100.0</percent></gene>
+		<gene name="rpsA"><depth>70.33</depth><percent>100.0</percent></gene>
+		<gene name="rpsL"><depth>105.01</depth><percent>100.0</percent></gene>
+		<gene name="ponA1"><depth>72.13</depth><percent>100.0</percent></gene>
+		<gene name="lprQ"><depth>69.18</depth><percent>100.0</percent></gene>
+		<gene name="ahpC"><depth>63.66</depth><percent>100.0</percent></gene>
+		<gene name="pykA"><depth>60.75</depth><percent>100.0</percent></gene>
+		<gene name="ddlA"><depth>68.2</depth><percent>100.0</percent></gene>
+		<gene name="mmpS5"><depth>64.44</depth><percent>100.0</percent></gene>
+		<gene name="ubiA"><depth>69.09</depth><percent>100.0</percent></gene>
+		<gene name="eis"><depth>80.73</depth><percent>100.0</percent></gene>
+		<gene name="mmaA2"><depth>76.35</depth><percent>100.0</percent></gene>
+		<gene name="fgd1"><depth>79.07</depth><percent>100.0</percent></gene>
+		<gene name="mmaA4"><depth>57.32</depth><percent>100.0</percent></gene>
+		<gene name="ethA"><depth>55.43</depth><percent>100.0</percent></gene>
+		<gene name="ldtA"><depth>59.47</depth><percent>100.0</percent></gene>
+		<gene name="ldtB"><depth>74.62</depth><percent>100.0</percent></gene>
+		<gene name="ethR"><depth>67.93</depth><percent>100.0</percent></gene>
+		<gene name="Rv3169"><depth>63.97</depth><percent>100.0</percent></gene>
+		<gene name="pepQ"><depth>67.68</depth><percent>100.0</percent></gene>
+		<gene name="Rv3008"><depth>54.22</depth><percent>100.0</percent></gene>
+		<gene name="furA"><depth>64.53</depth><percent>100.0</percent></gene>
+		<gene name="aftA"><depth>81.98</depth><percent>100.0</percent></gene>
+		<gene name="nat"><depth>59.06</depth><percent>100.0</percent></gene>
+		<gene name="ppsD"><depth>79.14</depth><percent>100.0</percent></gene>
+		<gene name="blaC"><depth>64.31</depth><percent>100.0</percent></gene>
+		<gene name="ppsA"><depth>71.83</depth><percent>100.0</percent></gene>
+		<gene name="ppsC"><depth>64.98</depth><percent>100.0</percent></gene>
+		<gene name="ppsB"><depth>62.34</depth><percent>100.0</percent></gene>
+		<gene name="mas"><depth>70.17</depth><percent>100.0</percent></gene>
+		<gene name="gyrB"><depth>56.67</depth><percent>100.0</percent></gene>
+		<gene name="serB2"><depth>68.65</depth><percent>100.0</percent></gene>
+		<gene name="whiB7"><depth>63.9</depth><percent>100.0</percent></gene>
+		<gene name="fbiC"><depth>77.82</depth><percent>100.0</percent></gene>
+		<gene name="fbiA"><depth>74.69</depth><percent>100.0</percent></gene>
+		<gene name="Rv0191"><depth>93.85</depth><percent>100.0</percent></gene>
+	</coverage>
+	<coverage_gaps>
+		<gene name="Rv0071"><depth>9.04</depth><percent>11.0</percent></gene>
+		<gene name="IntragenicSequence_Rv0071(Rv0071)_Rv0072(Rv0072)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv0072"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv0073"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv0073(Rv0073)_Rv0074(Rv0074)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv0074"><depth>60.17</depth><percent>76.0</percent></gene>
+		<gene name="IntragenicSequence_Rv0094c(Rv0094c)_Rv0095c(Rv0095c)"><depth>12.0</depth><percent>72.0</percent></gene>
+		<gene name="Rv0095c"><depth>30.28</depth><percent>62.0</percent></gene>
+		<gene name="IntragenicSequence_Rv0278c(PE_PGRS3)_Rv0279c(PE_PGRS4)"><depth>37.22</depth><percent>77.0</percent></gene>
+		<gene name="PE_PGRS4"><depth>28.41</depth><percent>44.0</percent></gene>
+		<gene name="cyp123"><depth>55.07</depth><percent>78.0</percent></gene>
+		<gene name="Rv1572c"><depth>53.12</depth><percent>81.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1572c(Rv1572c)_Rv1573(Rv1573)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1573"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1573(Rv1573)_Rv1574(Rv1574)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1574"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1575"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1576c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1576c(Rv1576c)_Rv1577c(Rv1577c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1577c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1577c(Rv1577c)_Rv1578c(Rv1578c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1578c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1578c(Rv1578c)_Rv1579c(Rv1579c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1579c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1580c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1580c(Rv1580c)_Rv1581c(Rv1581c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1581c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1581c(Rv1581c)_Rv1582c(Rv1582c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1582c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1583c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1584c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1584c(Rv1584c)_Rv1585c(Rv1585c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1585c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1586c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1587c"><depth>37.75</depth><percent>64.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1754c(Rv1754c)_Rv1755c(plcD)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="plcD"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="cut1"><depth>4.52</depth><percent>4.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1758(cut1)_Rv1759c(wag22)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="wag22"><depth>0.2</depth><percent>12.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1759c(wag22)_Rv1760(Rv1760)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1760"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1760(Rv1760)_Rv1761c(Rv1761c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1761c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv1762c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv1762c(Rv1762c)_Rv1763(Rv1763)"><depth>5.76</depth><percent>17.0</percent></gene>
+		<gene name="Rv2262c"><depth>77.76</depth><percent>88.0</percent></gene>
+		<gene name="IntragenicSequence_Rv2262c(Rv2262c)_Rv2263(Rv2263)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv2263"><depth>39.99</depth><percent>47.0</percent></gene>
+		<gene name="Rv2434c"><depth>45.55</depth><percent>85.0</percent></gene>
+		<gene name="lppA"><depth>67.97</depth><percent>88.0</percent></gene>
+		<gene name="lppB"><depth>40.67</depth><percent>87.0</percent></gene>
+		<gene name="DirectRepeatLocus(crispr)_containsRv2814-Rv2815"><depth>41.94</depth><percent>67.0</percent></gene>
+		<gene name="IntragenicSequence_DirectRepeatLocus_Rv2816c(Rv2816c)"><depth>0.02</depth><percent>2.0</percent></gene>
+		<gene name="Rv2816c"><depth>0.0</depth><percent>0.0</percent></gene><gene name="Rv2817c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv2817c(Rv2817c)_Rv2818c(Rv2818c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv2818c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="IntragenicSequence_Rv2818c(Rv2818c)_Rv2819c(Rv2819c)"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv2819c"><depth>0.0</depth><percent>0.0</percent></gene>
+		<gene name="Rv2820c"><depth>13.41</depth><percent>38.0</percent></gene>
+	</coverage_gaps>
+	<deletions/>
+	<mutations>
+		<snp gene="aftA">
+			<nuchange aachange="Gly248Gly" name="744C&gt;T">
+				<annotation>Synonymous</annotation>
+				<codonpos>248</codonpos>
+				<refpos>4238675</refpos>
+				<refnuc>C</refnuc>
+				<altnuc>T</altnuc>
+				<resistance>
+					<drug>ETHAMBUTOL</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="embA">
+			<nuchange aachange="Cys76Cys" name="228C&gt;T">
+				<annotation>Synonymous</annotation>
+				<codonpos>76</codonpos>
+				<refpos>4243460</refpos>
+				<refnuc>C</refnuc>
+				<altnuc>T</altnuc>
+				<resistance>
+					<drug>ETHAMBUTOL</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="embB">
+			<nuchange aachange="Ile489Thr" name="1466T&gt;C">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>489</codonpos>
+				<refpos>4247979</refpos>
+				<refnuc>T</refnuc>
+				<altnuc>C</altnuc>
+			</nuchange>
+			<nuchange aachange="Asp1024Asn" name="3070G&gt;A">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>1024</codonpos>
+				<refpos>4249583</refpos>
+				<refnuc>G</refnuc>
+				<altnuc>A</altnuc>
+			</nuchange>
+			<nuchange aachange="Leu172Arg" name="515T&gt;G">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>172</codonpos>
+				<refpos>4247028</refpos>
+				<refnuc>T</refnuc>
+				<altnuc>G</altnuc>
+				<resistance>
+					<drug>ETHAMBUTOL</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="gidB">
+			<nuchange aachange="Glu92Asp" name="276A&gt;C">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>92</codonpos>
+				<refpos>4407927</refpos>
+				<refnuc>T</refnuc>
+				<altnuc>G</altnuc>
+				<resistance>
+					<drug>STREPTOMYCIN</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+			<nuchange aachange="Ala205Ala" name="615A&gt;G">
+				<annotation>Synonymous</annotation>
+				<codonpos>205</codonpos>
+				<refpos>4407588</refpos>
+				<refnuc>T</refnuc>
+				<altnuc>C</altnuc>
+				<resistance>
+					<drug>STREPTOMYCIN</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="katG">
+			<nuchange aachange="Arg463Leu" name="1388G&gt;T">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>463</codonpos>
+				<refpos>2154724</refpos>
+				<refnuc>C</refnuc>
+				<altnuc>A</altnuc>
+				<resistance>
+					<drug>ISONIAZID</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+			<nuchange aachange="Ser315Thr" name="944G&gt;C">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>315</codonpos>
+				<refpos>2155168</refpos>
+				<refnuc>C</refnuc>
+				<altnuc>G</altnuc>
+				<resistance>
+					<drug>ISONIAZID</drug>
+					<confidence>High</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="mshA">
+			<nuchange aachange="Ala187Val" name="560C&gt;T">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>187</codonpos>
+				<refpos>575907</refpos>
+				<refnuc>C</refnuc>
+				<altnuc>T</altnuc>
+				<resistance>
+					<drug>ISONIAZID</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="pncA">
+			<nuchange aachange="Thr76Pro" name="226A&gt;C">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>76</codonpos>
+				<refpos>2289016</refpos>
+				<refnuc>T</refnuc>
+				<altnuc>G</altnuc>
+				<resistance>
+					<drug>PYRAZINAMIDE</drug>
+					<confidence>High</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="rpoB">
+			<nuchange aachange="Ser450Leu" name="1349C&gt;T">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>450</codonpos>
+				<refpos>761155</refpos>
+				<refnuc>C</refnuc>
+				<altnuc>T</altnuc>
+				<resistance>
+					<drug>RIFABUTIN</drug>
+					<confidence>High</confidence>
+				</resistance>
+				<resistance>
+					<drug>RIFAMPICIN</drug>
+					<confidence>High</confidence>
+				</resistance>
+			</nuchange>
+			<nuchange aachange="Ala1075Ala" name="3225T&gt;C">
+				<annotation>Synonymous</annotation>
+				<codonpos>1075</codonpos>
+				<refpos>763031</refpos>
+				<refnuc>T</refnuc>
+				<altnuc>C</altnuc>
+				<resistance>
+					<drug>RIFAMPICIN</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="rpsL">
+			<nuchange aachange="Lys43Arg" name="128A&gt;G">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>43</codonpos>
+				<refpos>781687</refpos>
+				<refnuc>A</refnuc>
+				<altnuc>G</altnuc>
+				<resistance>
+					<drug>STREPTOMYCIN</drug>
+					<confidence>High</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+		<snp gene="tap">
+			<nuchange aachange="Glu194fs" name="580_581insC">
+				<annotation>Non-synonymous</annotation>
+				<codonpos>194</codonpos>
+				<refpos>1406760</refpos>
+				<refnuc>T</refnuc>
+				<altnuc>TG</altnuc>
+				<resistance>
+					<drug>STREPTOMYCIN</drug>
+					<confidence>Low</confidence>
+				</resistance>
+			</nuchange>
+		</snp>
+	</mutations>
+	<low_quality>
+		<segment refpos="104962"><ref>G</ref><alt>A</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="333556"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="333559"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="333562"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="333569"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="333571"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="333637"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="333640"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="333641"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335642"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335643"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335651"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335654"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335657"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335919"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335920"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335922"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335927"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="335929"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336074"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336081"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336082"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336140"><ref>G</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="336245"><ref>T</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="336246"><ref>C</ref><alt>T</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="336323"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336325"><ref>T</ref><alt>C</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336326"><ref>A</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336327"><ref>C</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336332"><ref>G</ref><alt>C</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336344"><ref>A</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336345"><ref>T</ref><alt>C</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336353"><ref>C</ref><alt>T</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336356"><ref>G</ref><alt>GCCTCCCC</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336357"><ref>GAAC</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="336369"><ref>C</ref><alt>T</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="336400"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336403"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336405"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336535"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336537"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336540"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336546"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336557"><ref>C</ref><alt>CT</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336560"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336562"><ref>A</ref><alt>ATGG</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336611"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336617"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="336620"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="337016"><ref>A</ref><alt>G</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="338320"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338322"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338325"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338330"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338338"><ref>A</ref><alt>T</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="338339"><ref>T</ref><alt>A</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="338561"><ref>G</ref><alt>A</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="338682"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338683"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338685"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338690"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="338692"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="401318"><ref>A</ref><alt>G</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="836372"><ref>T</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="836375"><ref>T</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="839515"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839516"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839519"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839520"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839790"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839794"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839799"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839995"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="839999"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="840003"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="840016"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="840017"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="840018"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="925829"><ref>T</ref><alt>G</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="927064"><ref>C</ref><alt>G</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="1096299"><ref>C</ref><alt>G</alt><qual_det>MinDP;MinMQ</qual_det></segment>
+		<segment refpos="1165114"><ref>C</ref><alt>T</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="1276842"><ref>G</ref><alt>A</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1276843"><ref>G</ref><alt>C</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1276846"><ref>C</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1276853"><ref>G</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="1276863"><ref>A</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="1276873"><ref>A</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1276875"><ref>T</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1276876"><ref>G</ref><alt>T</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1276882"><ref>C</ref><alt>G</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1276885"><ref>C</ref><alt>T</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="1278278"><ref>G</ref><alt>A</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="1468492"><ref>C</ref><alt>A</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="1480184"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1480186"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1480189"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1480195"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1480197"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1480198"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1480204"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1480205"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1533176"><ref>A</ref><alt>T</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="1634418"><ref>C</ref><alt>T</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="1634609"><ref>C</ref><alt>T</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="1634610"><ref>C</ref><alt>T</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="1636927"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636928"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636934"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636936"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636944"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636945"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636946"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636980"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636981"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1636983"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637006"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637009"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637012"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637015"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637018"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637206"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637207"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637210"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637214"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637249"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637255"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637258"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637263"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637264"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1637656"><ref>G</ref><alt>C</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="1789446"><ref>C</ref><alt>T</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="1789671"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1789675"><ref>A</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="1789678"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2262857"><ref>T</ref><alt>C</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="2266504"><ref>T</ref><alt>TA</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2266508"><ref>A</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2266511"><ref>GT</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2266517"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2300546"><ref>A</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2300552"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2300555"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2785969"><ref>A</ref><alt>T</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="2866744"><ref>G</ref><alt>A</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="2866745"><ref>A</ref><alt>C</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="2866749"><ref>C</ref><alt>A</alt><qual_det>MinDP;SnpCluster</qual_det></segment>
+		<segment refpos="2866815"><ref>G</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="2866876"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2866880"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2866882"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867230"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867231"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867236"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867240"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867245"><ref>A</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867251"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867254"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867401"><ref>A</ref><alt>C</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="2867532"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867536"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="2867538"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3127931"><ref>T</ref><alt>A</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="3247851"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3247853"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3247856"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3247864"><ref>C</ref><alt>CTAGG</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3247865"><ref>GCAAA</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3247874"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3247877"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3247883"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3379726"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3379730"><ref>G</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3379732"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3379735"><ref>A</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3379736"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3379742"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3502160"><ref>A</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3502166"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3502169"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3502171"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3502228"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3502231"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3502237"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528064"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528065"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528066"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528072"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528117"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528119"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528120"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528158"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528159"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3528165"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3711910"><ref>G</ref><alt>A</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="3712372"><ref>A</ref><alt>G</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="3738512"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3738516"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3738521"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750177"><ref>A</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750178"><ref>A</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750185"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750187"><ref>A</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750188"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750193"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750205"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750209"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3750210"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3841654"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3841662"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3841663"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843024"><ref>A</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843025"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843032"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843242"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843249"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843251"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843354"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843356"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843361"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843362"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843363"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843572"><ref>A</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843573"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843579"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843749"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843751"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843752"><ref>A</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843753"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3843760"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846773"><ref>T</ref><alt>TG</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846774"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846777"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846779"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846843"><ref>CAAA</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846851"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846852"><ref>C</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846853"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846857"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846860"><ref>T</ref><alt>G</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3846866"><ref>C</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3847235"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3847237"><ref>G</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3847238"><ref>C</ref><alt>T</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3894588"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3894589"><ref>T</ref><alt>C</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3894593"><ref>G</ref><alt>A</alt><qual_det>SnpCluster</qual_det></segment>
+		<segment refpos="3931461"><ref>C</ref><alt>G</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="3931730"><ref>T</ref><alt>TGCGGGCGGC</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="3935335"><ref>T</ref><alt>C</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="3935771"><ref>C</ref><alt>G</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="3946645"><ref>G</ref><alt>A</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="3947125"><ref>C</ref><alt>G</alt><qual_det>MinMQ;SnpCluster</qual_det></segment>
+		<segment refpos="3947126"><ref>G</ref><alt>A</alt><qual_det>MinMQ;SnpCluster</qual_det></segment>
+		<segment refpos="3947127"><ref>C</ref><alt>T</alt><qual_det>MinMQ;SnpCluster</qual_det></segment>
+		<segment refpos="3947128"><ref>C</ref><alt>G</alt><qual_det>MinMQ;SnpCluster</qual_det></segment>
+		<segment refpos="3947206"><ref>C</ref><alt>G</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="4231874"><ref>G</ref><alt>A</alt><qual_det>MinDP</qual_det></segment>
+		<segment refpos="4254006"><ref>G</ref><alt>T</alt><qual_det>MinMQ</qual_det></segment>
+		<segment refpos="4254039"><ref>T</ref><alt>C</alt><qual_det>MinMQ</qual_det></segment>
+	</low_quality>
+</surveillance_report>
